@@ -1,22 +1,50 @@
-# Program 4: Number Guessing Game
 import random
 
-secret_number = random.randint(1, 100)
-attempts = 0
-print("I have selected a number between 1 and 100.")
+print("====================================")
+print("       NUMBER GUESSING GAME")
+print("====================================")
 
-while True:
-    try:
-        guess = int(input("Your guess: "))
-    except ValueError:
-        print("Please enter a whole number.")
+print("Welcome to the Number Guessing Game!")
+print("I have selected a number between 1 and 100.")
+print("You have 7 attempts to guess the number.")
+
+# Generate a random number
+secret_number = random.randint(1, 100)
+
+attempts = 0
+max_attempts = 7
+won = False
+
+while attempts < max_attempts:
+
+    guess = int(input("\nEnter your guess: "))
+    attempts += 1
+
+    if guess < 1 or guess > 100:
+        print("Please enter a number between 1 and 100.")
+        attempts -= 1
         continue
 
-    attempts += 1
-    if guess < secret_number:
-        print("Too low. Try again!")
-    elif guess > secret_number:
-        print("Too high. Try again!")
-    else:
-        print(f"Correct! You guessed it in {attempts} attempt(s).")
+    if guess == secret_number:
+        print("\nCongratulations! You guessed the correct number.")
+        print("The secret number is:", secret_number)
+        print("Number of attempts:", attempts)
+        won = True
         break
+
+    elif guess < secret_number:
+        print("Too low! Try a higher number.")
+
+    else:
+        print("Too high! Try a lower number.")
+
+    remaining = max_attempts - attempts
+    print("Remaining attempts:", remaining)
+
+# Check the final result
+if not won:
+    print("\nGame Over!")
+    print("The correct number was:", secret_number)
+
+print("\nThank you for playing!")
+print("====================================")
