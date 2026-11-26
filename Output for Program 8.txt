@@ -1,0 +1,35 @@
+=== Contact Book ===
+1. Add contact
+2. View contacts
+3. Search contact
+4. Exit
+Choose: 1
+Name: Divya
+Phone number: 987456321
+Email (optional): divya@gmail.com
+Contact added.
+
+=== Contact Book ===
+1. Add contact
+2. View contacts
+3. Search contact
+4. Exit
+Choose: 2
+1. Divya | 987456321 | divya@gmail.com
+
+=== Contact Book ===
+1. Add contact
+2. View contacts
+3. Search contact
+4. Exit
+Choose: 3
+Enter a name to search: Divya
+{'name': 'Divya', 'phone': '987456321', 'email': 'divya@gmail.com'}
+
+=== Contact Book ===
+1. Add contact
+2. View contacts
+3. Search contact
+4. Exit
+Choose: 4
+Goodbye!

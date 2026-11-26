@@ -1,0 +1,32 @@
+2. View students
+3. Search by roll number
+4. Exit
+Choose: 1 
+Roll number: 50
+Student name: Divya
+Course: Gen-AI
+Student saved to students.json
+
+=== Student Data Manager ===
+1. Add student
+2. View students
+3. Search by roll number
+4. Exit
+Choose: 2
+{'roll': '50', 'name': 'Divya', 'course': 'Gen-AI'}
+
+=== Student Data Manager ===
+1. Add student
+2. View students
+3. Search by roll number
+4. Exit
+Choose: 3
+Enter roll number: 50
+{'roll': '50', 'name': 'Divya', 'course': 'Gen-AI'}
+
+=== Student Data Manager ===
+1. Add student
+2. View students
+3. Search by roll number
+4. Exit
+Choose: 4

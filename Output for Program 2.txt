@@ -1,0 +1,5 @@
+=== Simple Calculator ===
+Enter first number: 8
+Enter operator (+, -, *, /): +
+Enter second number: 5
+Result: 13.0

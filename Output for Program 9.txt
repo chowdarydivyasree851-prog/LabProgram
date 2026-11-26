@@ -1,0 +1,15 @@
+How many students? 2
+
+Student name: Divya
+Subject 1 marks (0-100): 100 
+Subject 2 marks (0-100): 90
+Subject 3 marks (0-100): 95
+
+Student name: Karunya
+Subject 1 marks (0-100): 100
+Subject 2 marks (0-100): 95
+Subject 3 marks (0-100): 90
+
+=== Student Results ===
+Divya: marks=[100.0, 90.0, 95.0], average=95.00, grade=A
+Karunya: marks=[100.0, 95.0, 90.0], average=95.00, grade=A

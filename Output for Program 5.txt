@@ -1,0 +1,2 @@
+Enter a positive integer: 8
+8 is not a prime number.

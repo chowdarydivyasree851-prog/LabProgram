@@ -1,0 +1,8 @@
+Enter log file path (default: sample.log): sample.log
+
+Total lines: 0
+
+--- Log contents ---
+
+Errors found: 0
+Warnings found: 0

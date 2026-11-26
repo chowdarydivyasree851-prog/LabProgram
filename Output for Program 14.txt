@@ -1,0 +1,31 @@
+Account holder name: Divya
+Opening balance: 50000
+
+1. Deposit
+2. Withdraw
+3. Check balance
+4. Exit
+Choose: 1
+Amount to deposit: 5000
+Deposited 5000.00.
+
+1. Deposit
+2. Withdraw
+3. Check balance
+4. Exit
+Choose: 2
+Amount to withdraw: 1000
+Withdrawn 1000.00.
+
+1. Deposit
+2. Withdraw
+3. Check balance
+4. Exit
+Choose: 3
+Divya's balance: 54000.00
+
+1. Deposit
+2. Withdraw
+3. Check balance
+4. Exit
+Choose: 4

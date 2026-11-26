@@ -1,0 +1,9 @@
+=== Area Calculator ===
+1. Circle
+2. Rectangle
+3. Triangle
+4. Square
+Choose a shape (1-4): 2
+Enter length: 33
+Enter width: 5
+Area of rectangle: 165.0
